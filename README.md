@@ -1,28 +1,28 @@
 
-** NOTE **: if any problem arise while running the project , "handtest" file can be run individually which contains the whole project                                                                                    #TOUCH VIRTUAL
-
-PROJECT OBJECTIVE :-
-
-The objective is to manage computers and other devices WITH non touch displays in a way to interact them through 
-touch interfrence without the need of any special hardware devices.
+** NOTE **: if any problem arise while running the project , "handtest" file can be run individually which contains the whole project                                                                               #TOUCH VIRTUAL
 
 PROBLEM STATEMENT :-
 
-..TO DESIGN VISION BASED MOUSE WHICH DETECTS HAND GESTURES PATTERNS INSTEAD OF PHYSICAL MOUSE.
-..BASICALLY WE USE DETECTION OF FINGER TIP WHICH ARE CAPTURED BY  WEBCAM.
-..THE CAMERA IS POSITIONED SUCH THAT IT RECOGNIZESTHE MOTION OF FINGER TIPS AND PERFORMS THE OPERATIONS OF MOUSE. 
+To develop artificial intelligence based computer program that can provide input to the computer systems 
+by using hand a pointing device on any surface just like moving fingers on laptop touchpad.
 
-INTRODUCTION :-
+Description :-
 
 AS COMPUTER TECHNOLOGY CONTINUES TO DEVOLOP,PEOPLE HAVE SMALLER ELECTRONIC DEVICES.
 INCREASINGLY WE ARE RECOGNIZING THE IMPORTANCE OF HUMAN COMPUTING INTERACTIONS(HCI), AND INPARTICULAR VISION-BASED GESTURE AND OBJECT RECOGNITION.
-IN OUR PROJECT , WE PROPOSE A NOVEL APPROACH THAT USES A VIEDO DEVICE TO CONTROL THE MOUSE SYSYTEM(MOUSE TASKS).
-WE EMPLOY SEVERAL IMAGES PROCESSING ALGORITHM TO IMPLEMENT THIS.
+IN THIS PROJECT,I PROPOSE A NOVEL APPROACH THAT USES A VIEDO DEVICE TO CONTROL THE MOUSE SYSYTEM(MOUSE TASKS).
+Touch virtual- a computer vision based project aimed at converting any surface area into touch enabled input method for computer systems. 
+The project uses the computer vision based technologies like OpenCV MediaPipe and pyAutoGUI for hand detection Coordinates processing and 
+interfacing actions into the computer system. The project is solution to use the surface with a region of interest leveraged with the on 
+board processing through computer vision model for the webcam video stream thus eliminating additional hardware requirements. 
+The project can be used in a setting at the time of presentation where the user need not to move into the computer to provide input as 
+they can indicate the input action directly by touching the part of the projected screen through the hand itself like dragging the 
+mouse and typing which are captured by the webcam, processed by the model and sent to the system making it to record the input.
 
 APPLICATION AND FUTURE WORK :-
 
 Control of cursor and clicking action in various devices.
-In the future, we plan to add more features such as enlarging and shrinking windows, closing window, etc..by using plam.
+In the future, I plan to add more features such as enlarging and shrinking windows, closing window using palm gestures, keyboard interface for typing.
 
 FLOW CHART :-
 
@@ -40,7 +40,7 @@ Advantages :-
 
 Conclusion :-
 
-We are developing a system to control the mouse cursor using a real-time camera.
+I have developed a system to control the mouse cursor using a real-time camera.
 This system is based on computer vision algorithms and can do all mouse tasks.
 However, it is difficult to get stable results because of the variety of lighting and skin colors of human races.
 This system could be useful in presentations and to reduce work space.
